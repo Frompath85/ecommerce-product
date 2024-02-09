@@ -10,6 +10,22 @@ The Web site is able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 <!-- - View the cart and remove items from it *not yet developper* -->
+
 This project is developped using : 
 
-React Vite - HTML - CSS - JS
+**React Vite** - **HTML** - **CSS** - **JS**
+
+### Installation
+Clone repository:
+```
+git clone https://github.com/Frompath85/ecommerce-product.git
+```
+
+Installation du projet
+```
+npm install
+```
+Pour commencer le projet
+```
+npm run dev
+```
