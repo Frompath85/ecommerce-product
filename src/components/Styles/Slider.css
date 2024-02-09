@@ -1,0 +1,93 @@
+.SliderContainer{
+    background-color:rgba(37, 37, 39, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SlideImageContainer{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 60%;
+    border-radius: 20px;
+}
+.SlideImageContainerMobile{
+    position: relative;
+    width: 500px;
+    height: 60%;
+    border-radius: 20px;
+    display: none;
+}
+
+.CurrentImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Next{
+    position: absolute;
+    right: -25px;
+    top: 45%;
+    background-color: azure;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.Previous{
+    position: absolute;
+    left: -25px;
+    top: 45%;
+    background-color: azure;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.CloseButton{
+    position: absolute;
+    top: -30px;
+    right: -9px;
+}
+.CloseButton img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.ImgSliderContainer{
+    width : 22%;
+    height: 120px;
+    border-radius: 13px;
+    cursor:pointer;
+    border: 3px solid rgba(37, 37, 39, 0);;
+}
+.ImgSliderContainer:hover{
+    border-color: #dc7032;
+  
+} 
+.ImageItemsSlider{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.ImageItemsSlider img{
+    width : 100%;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.ImageItemsSlider img:hover{
+      filter: brightness(70%);
+}

@@ -1,0 +1,96 @@
+#root{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    margin-top: 30px;
+}
+@media screen and (max-width: 426px) {
+    .avatar {
+        width: 35px;
+        height: 35px;
+    }
+    .menu{
+        visibility: hidden;
+        display: none;
+    }
+    main{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .ImageItems{
+        display: none;
+    }
+    .MenuMobile{
+        display: block;
+        margin-right: 8px;
+    }
+    .rightNav{
+        gap:30px;
+    }
+    header {
+        border: none;
+        padding: 10px 10px 20px 10px;
+    }
+    .ImageContainer{
+        display: none;
+
+    }
+    .DecriptionContainer{
+        margin: 0px;
+        width: 100%;
+        padding: 0px 0px 50px 0px;
+    }
+    .CompanyTitle{
+        font-size: 32px;
+        margin: 0px 10px 20px 10px;
+    }
+    .CompanyPrice{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin: 20px 10px 0px 10px;
+    }
+    .Cart{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .CartSum{
+        width: auto;
+        margin: 0px 10px;
+    }
+    .AddToCart{
+        width: auto;
+        margin: 0px 10px;
+    }
+    .CompanyDecription{
+        font-size: 14px;
+        margin: 0px 10px;
+    }
+    .CompanyName{
+        margin: 20px 10px 20px 10px;
+    }
+    .SlideImageContainerMobile{
+        display: flex;
+        width: 100%;
+    }
+    .SliderContainer{
+        display: none;
+    }
+    .CurrentImage{
+        border-radius: initial; 
+    }
+    .Next{
+        right: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    .Previous {
+        left: 5px;
+        width: 35px;
+        height: 35px;
+    }
+}
