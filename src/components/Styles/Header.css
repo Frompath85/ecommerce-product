@@ -5,6 +5,7 @@
     margin: 0px;
 }
 header{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
