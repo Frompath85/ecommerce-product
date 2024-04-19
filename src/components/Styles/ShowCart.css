@@ -1,0 +1,48 @@
+.CartContainer{
+    width: 330px;
+    box-shadow: #ac9f9f 4px 20px 50px -17px;
+    border-radius: 10px;
+    background-color: #f7f8fd;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+.ProductCart{
+    margin: 15px;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.ProductItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ProductItemImg{
+    width: 55px;
+    height: 55px;
+    border-radius: 5px;
+}
+.ImgDelete{
+    width: 17px;
+    height: 20px;
+}
+.CheckoutBtn{
+    background-color:  #e67b29;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 10px;
+    color: #f7f8fd;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.CartContainerTitle{
+    padding: 15px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #a3a5a938;
+}
