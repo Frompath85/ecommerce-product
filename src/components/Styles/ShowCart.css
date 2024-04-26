@@ -1,11 +1,12 @@
 .CartContainer{
-    width: 330px;
-    box-shadow: #ac9f9f 4px 20px 50px -17px;
+    width: 350px;
+    box-shadow: #a8a7a7 1px 8px 50px -20px;
     border-radius: 10px;
-    background-color: #f7f8fd;
+    background-color: #fafafb;
     position: absolute;
     right: 0px;
     top: 70px;
+    z-index: 1;
 }
 .ProductCart{
     margin: 15px;
@@ -13,11 +14,27 @@
     display: flex;
     flex-direction: column;
 }
+.ProductCartEmpty{
+    display: flex;
+    justify-content: center;
+}
+.ProductCartEmpty p{
+    margin: 60px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color:  #73767c;
+}
 .ProductItem{
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
     align-items: center;
 }
+.ProductItem p{
+    color: #73767c;
+    font-size: 16px;
+    width: 220px;
+}
+
 .ProductItemImg{
     width: 55px;
     height: 55px;
@@ -45,4 +62,9 @@
     font-size: 20px;
     font-weight: 600;
     border-bottom: 2px solid #a3a5a938;
+}
+.TotalPrice{
+    font-weight: bold;
+    color: black;
+    padding: 0px 10px;
 }

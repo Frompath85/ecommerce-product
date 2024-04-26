@@ -43,6 +43,9 @@
     justify-content: center;
     cursor: pointer;
 }
+/* .Nextsvg:hover{
+   stroke: pink;
+} */
 .Previous{
     position: absolute;
     left: -25px;

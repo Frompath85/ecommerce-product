@@ -12,8 +12,7 @@ main{
         width: 35px;
         height: 35px;
     }
-    .menu{
-        visibility: hidden;
+    ul{
         display: none;
     }
     main{
@@ -29,6 +28,10 @@ main{
     }
     .rightNav{
         gap:30px;
+    }
+    .CartContainer {
+        margin: 10px;
+        width: 94%;
     }
     header {
         border: none;
