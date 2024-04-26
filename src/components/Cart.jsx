@@ -16,7 +16,9 @@ export default function Cart() {
         <span className='Sum'>{count}</span>
         <span className='CartSigne' onClick={()=>SetCount( count + 1 )}>+</span>
       </div>
-      <button className='AddToCart' onClick={()=> updatePanier(count+panier)} type='button'><img src={IconButton} alt="icone de panier" className='Panier'/> Add to cart</button>
+      <button className='AddToCart' 
+        onClick={()=>{ updatePanier(count+panier)} } 
+      type='button'><img src={IconButton} alt="icone de panier" className='Panier'/> Add to cart</button>
     </section>
   )
 }

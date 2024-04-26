@@ -8,7 +8,7 @@ export function CartProvider({children}){
     const [panier, updatePanier] = useState(0);
 
     return (
-        <CartContext.Provider value={{panier, updatePanier}}>
+        <CartContext.Provider value={{panier, updatePanier} }>
             {children}
         </CartContext.Provider>
     )
