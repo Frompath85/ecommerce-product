@@ -10,22 +10,54 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px 20px 0px;
-    border-bottom: 2px solid #a3a5a938;
+}
+header:after{
+    content: ""; 
+    position: absolute;
+    background-color:#a3a5a938 ;
+    height: 1.5px;
+    width: 100%;
+    left: 0px;
+    bottom: -10px;
 }
 .leftNav{
     display: flex;
     align-items: center;
 }
-.menu {
+ul {
  display: flex;
  justify-content: space-between;
  gap: 40px;
+ margin: 0px;
 }
-.menu li{
+li{
+   position: relative;
    list-style-type: none;
    color:  #73767c;
    font-size: 20px;
+   padding: 25px 0px;
+}
+/* *:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+li:after{
+    content: ""; 
+    position: absolute;
+    background-color:#e67b29 ;
+    height: 4px;
+    width: 0;
+    left: 0px;
+    bottom: -9px;
+}
+li:hover:after{
+    width: 100%;
+}
+li:hover{
+    color: black;
+    cursor: pointer;  
 }
 .rightNav{
     display: flex;
@@ -35,10 +67,20 @@ header{
 .avatar{
     width: 45px;
     height: 45px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.avatar:hover{
+    cursor: pointer;
+    border: 2px solid  #dc7032;
 }
 .iconePanier{
     width: 20px;
     height: 20px;
+    cursor: pointer;
+}
+.iconePanier:hover{
+    cursor: pointer;
 }
 .cart{
     background-color: #dc7032;
